@@ -1,0 +1,267 @@
+﻿<Window x:Class="MusicClient.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Вход в Music Streaming" Height="600" Width="400"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Background="Transparent">
+
+    <Window.Resources>
+        <!-- Те же стили, что и в MainWindow -->
+        <SolidColorBrush x:Key="PrimaryBackground" Color="#121212"/>
+        <SolidColorBrush x:Key="SecondaryBackground" Color="#181818"/>
+        <SolidColorBrush x:Key="CardBackground" Color="#282828"/>
+        <SolidColorBrush x:Key="AccentColor" Color="#03a1fc"/>
+        <SolidColorBrush x:Key="TextPrimary" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="TextSecondary" Color="#B3B3B3"/>
+        <SolidColorBrush x:Key="HoverColor" Color="#1E1E1E"/>
+
+        <Style x:Key="ModernTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="{StaticResource CardBackground}"/>
+            <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="16,12"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                        Padding="{TemplateBinding Padding}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="{StaticResource AccentColor}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ModernPasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Background" Value="{StaticResource CardBackground}"/>
+            <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="16,12"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                        Padding="{TemplateBinding Padding}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="{StaticResource AccentColor}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AccentButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AccentColor}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="24,12"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="25"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#03a1fc"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#03a1fc"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LinkButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="{StaticResource AccentColor}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter/>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="#03a1fc"/>
+                                <Setter Property="TextBlock.TextDecorations" Value="Underline"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="{StaticResource PrimaryBackground}" CornerRadius="8">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок окна -->
+            <Grid Grid.Row="0" Background="{StaticResource SecondaryBackground}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="15,0">
+                    <Ellipse Width="12" Height="12" Fill="#FF5F56" Margin="0,0,8,0"/>
+                    <Ellipse Width="12" Height="12" Fill="#FFBD2E" Margin="0,0,8,0"/>
+                    <Ellipse Width="12" Height="12" Fill="#27CA3F"/>
+                    <TextBlock Text="Вход в аккаунт" Foreground="{StaticResource TextPrimary}" 
+                             FontWeight="Medium" Margin="20,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button Content="×" Click="CloseButton_Click" 
+                          Background="Transparent" Foreground="{StaticResource TextSecondary}" 
+                          BorderThickness="0" Width="40" Height="30" FontSize="16"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Основной контент -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Hidden" Margin="0,0,0,0">
+                <StackPanel 
+                          Width="320" Margin="30">
+
+                    <!-- Логотип -->
+                    <StackPanel HorizontalAlignment="Center" Margin="0,0,0,30">
+                        <Ellipse Width="80" 
+                                 Height="80" 
+                                 Fill="{StaticResource AccentColor}"
+                                 Margin="0, 0, 0, 10"/>
+                        <TextBlock Text="СloudMusic" 
+                                 Foreground="{StaticResource TextPrimary}" 
+                                 FontSize="28" FontWeight="Bold" 
+                                 HorizontalAlignment="Center"/>
+                        <TextBlock Text="Локальное хранилище музыки" 
+                                 Foreground="{StaticResource TextSecondary}" 
+                                 FontSize="16" 
+                                 HorizontalAlignment="Center" Margin="0,8,0,0"/>
+                    </StackPanel>
+
+                    <!-- Форма входа и регистрации -->
+                    <Grid>
+                        <!-- Grid для Входа -->
+                        <Grid x:Name="LoginGrid" Visibility="Visible">
+                            <StackPanel>
+                                <TextBlock Text="  Никнейм или Email" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold" Margin="0,0,0,8"/>
+                                <TextBox x:Name="LoginNicknameOrEmailTextBox" 
+                                       Style="{StaticResource ModernTextBoxStyle}"
+                                       Margin="0,0,0,16"/>
+                                <TextBlock Text="  Пароль" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold"/>
+                                <PasswordBox x:Name="LoginPasswordBox" 
+                                           Style="{StaticResource ModernPasswordBoxStyle}"
+                                           Margin="0,0,0,24"/>
+
+                                <Button x:Name="LoginButton" 
+                                        Content="ВОЙТИ" 
+                                      Style="{StaticResource AccentButtonStyle}"
+                                      Height="50" Margin="0,0,0,24"
+                                      Click="LoginButton_Click"/>
+                                
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                                    <TextBlock Text="Нет аккаунта?" 
+                                             Foreground="{StaticResource TextSecondary}" 
+                                             FontSize="14" VerticalAlignment="Center"/>
+                                    <Button Content="Зарегистрироваться" 
+                                          Style="{StaticResource LinkButtonStyle}"
+                                          Margin="8,0,0,0"
+                                          x:Name="ShowRegisterFormButton"
+                                          Click="ShowRegisterFormButton_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- Grid для Регистрации -->
+                        <Grid x:Name="RegisterGrid" Visibility="Collapsed">
+                            <StackPanel>
+                                <TextBlock Text="  Никнейм" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold" Margin="0,0,0,8"/>
+                                <TextBox x:Name="RegisterNicknameTextBox" 
+                                       Style="{StaticResource ModernTextBoxStyle}"
+                                       Margin="0,0,0,16"/>
+
+                                <TextBlock Text="  Email" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold" Margin="0,0,0,8"/>
+                                <TextBox x:Name="RegisterEmailTextBox" 
+                                       Style="{StaticResource ModernTextBoxStyle}"
+                                       Margin="0,0,0,16"/>
+
+                                <TextBlock Text="  Пароль" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold"/>
+                                <PasswordBox x:Name="RegisterPasswordBox" 
+                                           Style="{StaticResource ModernPasswordBoxStyle}"
+                                           Margin="0,0,0,16"/>
+
+                                <TextBlock Text="  Повторите пароль" 
+                                         Foreground="{StaticResource TextPrimary}" 
+                                         FontSize="14" FontWeight="Bold"/>
+                                <PasswordBox x:Name="RegisterConfirmPasswordBox" 
+                                           Style="{StaticResource ModernPasswordBoxStyle}"
+                                           Margin="0,0,0,24"/>
+
+                                <Button x:Name="RegisterButton" 
+                                        Content="ЗАРЕГИСТРИРОВАТЬСЯ" 
+                                      Style="{StaticResource AccentButtonStyle}"
+                                      Height="50" Margin="0,0,0,24"
+                                      Click="RegisterButton_Click"/>
+                                
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                                    <TextBlock Text="Уже есть аккаунт?" 
+                                             Foreground="{StaticResource TextSecondary}" 
+                                             FontSize="14" VerticalAlignment="Center"/>
+                                    <Button Content="Войти" 
+                                          Style="{StaticResource LinkButtonStyle}"
+                                          Margin="8,0,0,0"
+                                          x:Name="ShowLoginFormButton"
+                                          Click="ShowLoginFormButton_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    
+                    <!-- Старый Разделитель и Социальные сети (если нужны, можно вернуть) -->
+                    <!-- <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" /> -->
+                    <!-- <StackPanel/> -->
+
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</Window>

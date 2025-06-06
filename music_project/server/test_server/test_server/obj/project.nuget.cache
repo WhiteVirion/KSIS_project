@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "rJSpPrSHrWU=",
+  "success": true,
+  "projectFilePath": "D:\\работа\\4-Й СЕМ\\КСИС\\ksis_app\\test_server\\test_server\\test_server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.15\\microsoft.aspnetcore.openapi.8.0.15.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512",
+    "C:\\Users\\mrnav.ANGEL\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

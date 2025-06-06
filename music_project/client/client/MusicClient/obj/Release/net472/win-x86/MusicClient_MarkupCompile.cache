@@ -1,0 +1,20 @@
+﻿MusicClient
+
+
+winexe
+C#
+.cs
+D:\работа\4-Й СЕМ\КСИС\ksis_app\client\MusicClient\obj\Release\net472\win-x86\
+MusicClient
+none
+false
+TRACE;RELEASE;NETFRAMEWORK;NET472;
+D:\работа\4-Й СЕМ\КСИС\ksis_app\client\MusicClient\App.xaml
+10162408598
+
+35-692365864
+153-1915622322
+LoginWindow.xaml;MainWindow.xaml;Resources\Styles.xaml;Views\AllTracksView.xaml;Views\EmptyView.xaml;Views\FavoritesView.xaml;Views\ProfileView.xaml;Views\SearchView.xaml;Views\TrackView.xaml;Views\UploadTrackView.xaml;
+
+False
+

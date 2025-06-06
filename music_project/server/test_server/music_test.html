@@ -1,0 +1,18 @@
+<audio id="1" controls></audio>
+<script>
+const url = 'http://localhost:5063/api/tracks/stream/1'; // твой эндпоинт
+const token = '034046e9-bcf3-49bb-b0bd-b1d0895d02d5'; // подставь свой токен
+
+fetch(url, {
+  headers: { 'Authorization': 'Bearer ' + token }
+})
+  .then(r => {
+    if (!r.ok) throw new Error('Ошибка: ' + r.status);
+    return r.blob();
+  })
+  .then(blob => {
+    const audioUrl = URL.createObjectURL(blob);
+    document.getElementById('player').src = audioUrl;
+  })
+  .catch(e => alert(e));
+</script>

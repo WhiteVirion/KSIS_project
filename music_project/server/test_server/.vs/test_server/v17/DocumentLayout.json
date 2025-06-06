@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\services\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\services\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\data\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\data\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\data\\trackuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\data\\trackuploadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|d:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0439 \u0441\u0435\u043C\\\u043A\u0441\u0438\u0441\\ksis_app\\test_server\\test_server\\test_server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{760AB308-93FB-4F52-BBDE-9C5E2A6D7027}|test_server\\test_server.csproj|solutionrelative:test_server\\test_server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\User.cs",
+              "RelativeDocumentMoniker": "test_server\\Data\\User.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\User.cs",
+              "RelativeToolTip": "test_server\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:54:34.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "test_server\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "test_server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T14:19:13.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrackUploadRequest.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\TrackUploadRequest.cs",
+              "RelativeDocumentMoniker": "test_server\\Data\\TrackUploadRequest.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\TrackUploadRequest.cs",
+              "RelativeToolTip": "test_server\\Data\\TrackUploadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:38:10.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrackService.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Services\\TrackService.cs",
+              "RelativeDocumentMoniker": "test_server\\Services\\TrackService.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Services\\TrackService.cs",
+              "RelativeToolTip": "test_server\\Services\\TrackService.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAADgv9oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:43:20.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseSetup.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\DatabaseSetup.cs",
+              "RelativeDocumentMoniker": "test_server\\Data\\DatabaseSetup.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\DatabaseSetup.cs",
+              "RelativeToolTip": "test_server\\Data\\DatabaseSetup.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAACwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:43:15.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Track.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\Track.cs",
+              "RelativeDocumentMoniker": "test_server\\Data\\Track.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Data\\Track.cs",
+              "RelativeToolTip": "test_server\\Data\\Track.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:43:05.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "test_server\\Services\\AuthService.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Services\\AuthService.cs",
+              "RelativeToolTip": "test_server\\Services\\AuthService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:34:50.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Program.cs",
+              "RelativeDocumentMoniker": "test_server\\Program.cs",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\Program.cs",
+              "RelativeToolTip": "test_server\\Program.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:44:22.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "test_server.http",
+              "DocumentMoniker": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\test_server.http",
+              "RelativeDocumentMoniker": "test_server\\test_server.http",
+              "ToolTip": "D:\\\u0440\u0430\u0431\u043E\u0442\u0430\\4-\u0419 \u0421\u0415\u041C\\\u041A\u0421\u0418\u0421\\ksis_app\\test_server\\test_server\\test_server.http",
+              "RelativeToolTip": "test_server\\test_server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-31T14:44:24.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
